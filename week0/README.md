@@ -25,7 +25,6 @@ Loads the MNIST dataset and applies PCA to reduce the dimensionality to 78 compo
     ```bash
     python pca.py
     ```
-    *(Replace `your_filename_for_code1.py` with your filename)*
 3.  **Run Code 2:**
     ```bash
     python mnist.py
