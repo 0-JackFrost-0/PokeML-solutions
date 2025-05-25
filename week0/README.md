@@ -31,5 +31,5 @@ Loads the MNIST dataset and applies PCA to reduce the dimensionality to 78 compo
     python mnist.py
     ```
 
-## Image Output (`pca_mnist.py`)
+## Image Output (`mnist.py`)
 ![PCA Reconstruction on MNIST](images/pca.png)
