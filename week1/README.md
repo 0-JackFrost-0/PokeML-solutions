@@ -41,4 +41,4 @@ python -m task3.cats_vs_dogs
 ### Image Output
 ![Logistic Regression on MNIST](images/mnist.png)
 
-![Logistic Regression on Cats vs Dogs](images/cats_vs_dogs.png)
+![Logistic Regression on Cats vs Dogs](images/cat_vs_dogs.png)
