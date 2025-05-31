@@ -1,5 +1,10 @@
 js_puzzles/
 week-2.zip
+week-2/
 
+../.DS_Store
+.DS_Store
 week1/__pycache__/
 week1/task1/__pycache__
+week1/task2/__pycache__/
+week1/task3/__pycache__/

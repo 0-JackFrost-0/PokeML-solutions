@@ -1,7 +1,7 @@
 import pandas as pd
 import re
 import pandas as pd
-from helper import gradient_descent
+from helper import gradient_descent, mse_loss_with_gradient
 from sklearn.preprocessing import StandardScaler
 # from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
@@ -32,7 +32,7 @@ if __name__ == "__main__":
     learning_rate = 1e-4
     epsilon = 1e-8
 
-    w = gradient_descent(train_X, train_y, w, learning_rate, epsilon, max_iterations=100000)
+    w = gradient_descent(train_X, train_y, w, learning_rate, epsilon, max_iterations=100000, loss_fn=mse_loss_with_gradient)
     # w = LinearRegression().fit(train_X, train_y).coef_.T
     print("Gradient descent solution weights:")
     print(w)
